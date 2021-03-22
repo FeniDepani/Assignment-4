@@ -4,7 +4,7 @@ const express = require('express');
 const { ApolloServer, UserInputError } = require('apollo-server-express');
 const { kind } = require('graphql/language');
 const { MongoClient } = require('mongodb');
-const url = process.env.DB_URL ||'mongodb+srv://deepu9125:Policy@1234@mern-rla0x.mongodb.net/productdb?retryWrites=true&w=majority';
+const url = process.env.DB_URL ||'mongodb+srv://feni_depani_123:radhu@assignment4.7fvez.mongodb.net/productdb?retryWrites=true&w=majority';
 
 let db;
 const port = process.env.API_SERVER_PORT || 3000;
